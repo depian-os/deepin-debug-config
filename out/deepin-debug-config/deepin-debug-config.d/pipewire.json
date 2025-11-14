@@ -1,0 +1,10 @@
+{
+    "name" : "pipewire",
+    "submodules": [
+            {
+                "name" : "pipewire",
+                "exec" : "pipewire_debug.sh"
+            }
+    ],
+    "reboot": 1
+}

@@ -1,0 +1,11 @@
+{
+    "name" : "NetworkManager",
+    "group" : "network",
+    "submodules": [
+            {
+                "name" : "NetworkManager",
+                "exec" : "network-manager_debug.sh"
+            }
+    ],
+    "reboot": 1
+}

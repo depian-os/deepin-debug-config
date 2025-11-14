@@ -1,0 +1,61 @@
+#!/bin/bash
+# A script to configure the module's debug log level.
+# 
+# Note: Please do not modify this script directly, 
+# as modifying this script will invalidate this script.
+set -e
+
+pkg_name="qt"
+debug="no"
+state="n"
+
+# Get the UID of the current user
+current_uid=$(id -u)
+
+# Determine whether it is Root permission
+if [ "$current_uid" -ne 0 ]; then
+  echo "You need to have root privileges to run this script."
+  exit 1
+fi
+
+for x in "$@"; do
+        case $x in
+        debug=*)
+                debug=${x#debug=}
+                ;;
+	state)
+		state=y
+        esac
+done
+
+
+case "${debug}" in
+  "on")
+    if [判断是否已经enable]; then
+        echo "Debug logs are already enabled for ${pkg_name}."
+    else
+	    进行enable debug操作
+        echo "Debug logs are enabled for ${pkg_name}. "
+    fi
+    ;;
+  "off")
+    if [判断是否已经disable debug]; then
+        echo "Debug logs are already disabled for ${pkg_name}."
+    else
+	    进行disable debug操作
+        echo "Debug logs are disabled for ${pkg_name}."
+    fi
+    ;;
+    如果要支持除了on和off之外的其他debug级别，在下面添加
+  "-d" | "-dd" | "-ddd" | "debug" | "info") 
+  	进行相关操作
+  	echo "Debug logs set ${debug} for ${pkg_name}. "
+  *)
+    echo "Not support ${debug} parameter: $@"
+    exit 1;
+    ;;
+esac
+
+if [ "$state" == "y" ]; then
+	获取当前debug 级别返回
+fi

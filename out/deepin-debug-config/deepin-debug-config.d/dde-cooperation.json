@@ -1,0 +1,11 @@
+{
+    "name" : "dde-cooperation",
+    "submodules": [
+            {
+                "name" : "dde-cooperation",
+                "exec" : "dde-cooperation_debug.sh"
+            }
+    ],
+    "reboot": 0,
+    "version": "V1.0"
+}

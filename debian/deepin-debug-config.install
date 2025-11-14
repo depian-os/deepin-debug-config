@@ -1,0 +1,8 @@
+service/deepin-debug-config-service.service lib/systemd/system/
+service/org.deepin.DebugConfig.service usr/share/dbus-1/system-services/
+service/org.deepin.DebugConfig.conf usr/share/dbus-1/system.d/
+service/deepin-debug-config.service.json usr/lib/deepin-daemon/service-trigger/
+service/notify.sh usr/share/deepin-debug-config/
+service/00-on-journald.conf usr/share/deepin-debug-config/
+service/00-off-journald.conf usr/share/deepin-debug-config/
+policykit-action/org.deepin.DebugConfig.policy usr/share/polkit-1/actions/

@@ -1,0 +1,28 @@
+{
+  "name": "deepin-system-monitor",
+  "group": "",
+  "submodules": [
+    {
+      "name": "deepin-system-monitor-daemon",
+      "exec": "deepin-system-monitor-daemon.sh"
+    },
+    {
+      "name": "deepin-system-monitor",
+      "exec": "deepin-system-monitor.sh"
+    },
+    {
+      "name": "deepin-system-monitor-plugin",
+      "exec": "deepin-system-monitor-plugin.sh"
+    },
+    {
+      "name": "deepin-system-monitor-plugin-popup",
+      "exec": "deepin-system-monitor-plugin-popup.sh"
+    },
+    {
+      "name": "deepin-system-monitor-server",
+      "exec": "deepin-system-monitor-server.sh"
+    }
+  ],
+  "reboot": 0,
+  "version": "V1.0"
+}

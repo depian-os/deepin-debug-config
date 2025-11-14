@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+  <vendor>LinuxDeepin</vendor>
+  <vendor_url>https://www.deepin.com/</vendor_url>
+
+  <action id="org.deepin.DebugConfig.SetDebug">
+    <description>Set Modules Debug Level</description>
+    <description xml:lang="zh_CN">设置模块调试级别</description>
+    <message>Authentication is required to set modules debug level</message>
+    <message xml:lang="zh_CN">设置模块调试级别需要授权</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+  <action id="org.deepin.DebugConfig.InstallDbg">
+    <description>Install Modules Debug Symbols</description>
+    <description xml:lang="zh_CN">安装模块调试包</description>
+    <message>Authentication is required to install modules debug symbols</message>
+    <message xml:lang="zh_CN">安装模块调试包需要授权</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+  <action id="org.deepin.DebugConfig.SetCoredump">
+    <description>Set systemd-coredump On or Off</description>
+    <description xml:lang="zh_CN">设置systemd-coredump打开或关闭</description>
+    <message>Authentication is required to set systemd-coredump on or off</message>
+    <message xml:lang="zh_CN">设置systemd-coredump打开或关闭需要授权</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+  <action id="org.deepin.DebugConfig.GetState">
+    <description>Get Modules Debug Level State</description>
+    <description xml:lang="zh_CN">获取模块调试级别状态</description>
+    <message>Authentication is required to get modules debug level state</message>
+    <message xml:lang="zh_CN">获取模块调试级别状态需要授权</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+</policyconfig>
+

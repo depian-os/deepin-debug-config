@@ -1,0 +1,6 @@
+# List of files which contain translatable strings
+
+main.c
+module_configure.c
+generate_sha256.c
+util.c

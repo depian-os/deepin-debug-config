@@ -1,0 +1,10 @@
+{
+    "name" : "pulseaudio",    
+    "submodules": [
+            {
+                "name" : "pulseaudio",
+                "exec" : "pulseaudio_debug.sh"
+            }
+    ],
+    "reboot": 1
+}

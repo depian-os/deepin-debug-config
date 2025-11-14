@@ -1,0 +1,15 @@
+{
+  "name": "uos-service-support",
+  "submodules": [
+    {
+      "name": "uos-service-support.gui",
+      "exec": "uos-service-support-gui_debug.sh"
+    },
+    {
+      "name": "uos-service-support.agent",
+      "exec": "uos-service-support-agent_debug.sh"
+    }
+  ],
+  "reboot": 0,
+  "version": "V1.0"
+}

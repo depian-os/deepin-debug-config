@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=org.deepin.DebugConfig
+User=root
+Exec=/usr/bin/deepin-debug-config-service
+SystemdService=deepin-debug-config-service.service

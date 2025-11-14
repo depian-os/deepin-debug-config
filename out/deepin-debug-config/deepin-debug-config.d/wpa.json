@@ -1,0 +1,10 @@
+{
+    "name" : "wpasupplicant",
+    "submodules": [
+            {
+                "name" : "wpasupplicant",
+                "exec" : "wpa_debug.sh"
+            }
+    ],
+    "reboot": 1
+}

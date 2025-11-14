@@ -1,0 +1,385 @@
+# Chinese translations for PACKAGE package
+# PACKAGE deepin-debug-config.
+# Copyright (C) 2023 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <liaoyuan@uniontech.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-11 13:30+0800\n"
+"PO-Revision-Date: 2023-08-02 10:07+0800\n"
+"Last-Translator:  <liaoyuan@uniontech.com>\n"
+"Language-Team: Chinese (traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, c-format
+msgid "Usage: %s [options]\n"
+msgstr "用法: %s [選項]\n"
+
+#, c-format
+msgid "options:\n"
+msgstr "選項:\n"
+
+#, c-format
+msgid "\t-h --help:\tno arg,show help\n"
+msgstr "t-h --help:\t沒有參數，顯示幫助\n"
+
+#, c-format
+msgid ""
+"\t-s --set:\tno arg, means to configure debug mode, used together with --"
+"coredump or --level\n"
+msgstr ""
+"\t-s --set:\t沒有參數，代表去配置調試模式，與--coredump 或 --level一起使用\n"
+
+#, c-format
+msgid ""
+"\t-g --get:\tno arg, means to obtain debug mode information, used together "
+"with --coredump or --level\n"
+msgstr ""
+"\t-g --get:\t沒有參數，代表去獲取調試模式信息，與--coredump 或 --level一起使"
+"用\n"
+
+#, c-format
+msgid ""
+"\t-c --coredump:\toptionally receive a parameter, depending on the --set and "
+"--get options, which indicates switch coredump or get coredump status\n"
+msgstr ""
+"\t-c --coredump:\t可選地接收一個參數，具體取決於 --set 和 --get選項，表示切換"
+"coredump或者獲取coredump狀態\n"
+
+#, c-format
+msgid ""
+"\t-i --install-dbg:\trequire one arg, which means to install the debug "
+"package of the specified pkg, example: -i systemd\n"
+msgstr ""
+"\t-i --install-dbg:\t需要一個參數，表示安裝指定包相關的調試包,示例: -i "
+"systemd\n"
+
+#, c-format
+msgid ""
+"\t-l --level:\toptionally receive a parameter, depending on the --set and --"
+"get options, which indicates setting and getting the module log level and "
+"coredump status\n"
+msgstr ""
+"\t-l --level:\t可選地接收一個參數，具體取決於 --set 和 --get獲取選項，表示設"
+"置和獲取模塊日誌級別和核心轉儲狀態\n"
+
+#, c-format
+msgid ""
+"\t-L --list-levels:\tno arg, but should be used with -m or --module, list "
+"supported dbug levels for specified module \n"
+msgstr ""
+"\t-L --list-levels:\t沒有參數，但是必須與-m或--module一起使用，列出指定模組支"
+"持的調試等級\n"
+
+#, c-format
+msgid ""
+"\t-m --module:\trequire one arg, input the name of the module to be "
+"configured, example: -m systemd\n"
+msgstr ""
+"\t-m --module:\t需要一個參數，輸入需要配置的模組的模組名，示例: -m systemd\n"
+
+#, c-format
+msgid ""
+"\t-t --type:\trequire one arg, input the type of the module to be "
+"configured, example: -t system\n"
+msgstr ""
+"\t-t --type:\t需要一個參數，輸入需要配置的模組的類型，示例: -t system\n"
+
+#, c-format
+msgid "Error: NOMEMORY:%m\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Invalid argument, --set and --get cannot be used together\n"
+msgstr "Error: 參數無效，--set 和 --get 不能一起使用\n"
+
+#, c-format
+msgid "Error: %s missing parameter\n"
+msgstr "Error: %s 缺失參數\n"
+
+#, c-format
+msgid "Try '%s --help' for more information.\n"
+msgstr "嘗試使用'%s --help'獲取更多信息.\n"
+
+#, c-format
+msgid "Error: -l --level should be used with --set or --get\n"
+msgstr "Error: -l --level需要與--set 或 --get一起使用\n"
+
+#, c-format
+msgid ""
+"Error: Invalid argument for -c or --coredump which you should use with \"on"
+"\" or \"off\"\n"
+msgstr ""
+"Error: -c 或 --coredump 的參數無效，應該與參數 \"on\" 或 \"off\" 一起使用\n"
+
+#, c-format
+msgid "Error: -c --coredump should be used with --set or --get\n"
+msgstr "Error: -c --coredump需要與--set 或 --get一起使用\n"
+
+#, c-format
+msgid "Error: Invalid parameter, please check parameters\n"
+msgstr "Error: 無效的參數，請檢查參數\n"
+
+#, c-format
+msgid "Error: Failed to get coredump state.\n"
+msgstr "Error: 獲取配置核心轉儲狀態失敗\n"
+
+#, c-format
+msgid "Error: %s: Permission denied.\n"
+msgstr "Error: %s: 權限被拒絕\n"
+
+#, c-format
+msgid ""
+"Error: Invalid argument for -l --level, you should use --type with --level "
+"whose parameter is \"on\" or \"off\"\n"
+msgstr ""
+"Error: -l --level 的參數無效，您應該將 --type 與 --level 一起使用，參數為 \"on"
+"\" 或 \"off\"\n"
+
+#, c-format
+msgid "Done.\n"
+msgstr ""
+
+#, c-format
+msgid "Failed.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error: Invalid argument, --set and --get should be used with --coredump or --"
+"level\n"
+msgstr "Error: 參數無效，--set 和 --get 應與 --coredump或--level 一起使用\n"
+
+#, c-format
+msgid "Error: Invalid argument, --module and --type cannot be used together\n"
+msgstr "Error: 參數無效，--module 和 --type 不能一起使用\n"
+
+#, c-format
+msgid "Error: %s is only supported for use with a single specified pkg-name\n"
+msgstr "Error: %s 只支持與單個指定的包名一起使用\n"
+
+#, c-format
+msgid "Error: --get --level should be used with -t or --type\n"
+msgstr "Error: --get --level需要與-t或--type一起使用\n"
+
+#, c-format
+msgid "Error: %s is only supported for use with a single specified type\n"
+msgstr "Error: %s 只支持與單個指定的類型一起使用\n"
+
+#, c-format
+msgid "Error: -L --list-levels should be used with -m or --module\n"
+msgstr "Error: -L --list-levels需要與-m或--module一起使用\n"
+
+#, c-format
+msgid "Error: %s is only supported for use with a single specified module\n"
+msgstr "Error: %s 只支持與單個指定的module一起使用\n"
+
+#, c-format
+msgid "Error: -l --level should be used with -m,--module or -t,--type\n"
+msgstr "Error: -l --level 需要與-m,--module 或-t,--type一起使用\n"
+
+#, c-format
+msgid "Error: Invalid module_name: %s\n"
+msgstr "Error: 無效的模塊名稱: %s\n"
+
+#, c-format
+msgid "Supported module_names: "
+msgstr "支持的模塊名稱："
+
+#, c-format
+msgid "Error: Invalid argument for %s\n"
+msgstr "Error: 對於 %s 無效的參數\n"
+
+#, c-format
+msgid "Error: Invalid module_type: %s\n"
+msgstr "Error: 無效的模塊類型：%s\n"
+
+#, c-format
+msgid "Supported module_types: "
+msgstr "支持的模塊類型："
+
+#, c-format
+msgid "Error: Failed to get json file count from %s\n"
+msgstr "Error: 無法從路徑 %s 獲取 json 文件計數\n"
+
+#, c-format
+msgid "Error: Failed to open dir %s, err: %m\n"
+msgstr "Error: 無法打開目錄 %s，錯誤: %m\n"
+
+#, c-format
+msgid "Error: lstat error %s\n"
+msgstr "Error: lstat 錯誤 %s\n"
+
+#, c-format
+msgid "Error: hook_config init failed\n"
+msgstr "Error: hook_config 初始化失敗\n"
+
+#, c-format
+msgid "Error: Cannot find configure command for the module %s.\n"
+msgstr "Error: 找不到模塊 %s 的配置命令。\n"
+
+#, c-format
+msgid "Error: Failed to configure %s.\n"
+msgstr "Error: 配置 %s失敗。\n"
+
+#, c-format
+msgid "INFO: Succeed to configure %s.\n"
+msgstr "INFO: 成功配置 %s。\n"
+
+#, c-format
+msgid "Error: Module %s is not supported for this tool\n"
+msgstr "Error: 此工具不支持模塊 %s\n"
+
+#, c-format
+msgid "Error: %s,failed :%m\n"
+msgstr "Error: %s,失敗 :%m\n"
+
+#, c-format
+msgid "Error: Error getting debug level for type \"%s\"\n"
+msgstr "Error: 獲取類型\"%s\"的調試級別時出錯\n"
+
+#, c-format
+msgid "Error: file %s,failed:%m\n"
+msgstr "Error: file %s,失敗:%m\n"
+
+#, c-format
+msgid "Error: read file %s error,failed:%m\n"
+msgstr "Error: 讀取文件 %s 錯誤，失敗:%m\n"
+
+#, c-format
+msgid "Error: rename file %s error,failed:%m\n"
+msgstr "Error: 重命名文件 %s 錯誤，失敗:%m\n"
+
+#, c-format
+msgid "Warning: The %s configuration file is missing the debug_on_para field\n"
+msgstr "Warning: %s 配置文件缺少 debug_on_para 字段\n"
+
+#, c-format
+msgid "Warning: The %s configuration file's debug_on_para filed is not valid\n"
+msgstr "Warning: %s 配置文件的 debug_off_para 字段無效\n"
+
+#, c-format
+msgid ""
+"Warning: The %s configuration file's debug_off_para filed is not valid\n"
+msgstr "Warning: %s 配置文件的 debug_off_para 字段無效\n"
+
+#, c-format
+msgid "Error: Cannot find configuration file for type %s\n"
+msgstr "Error: 找不到類型 %s 的配置文件\n"
+
+#, c-format
+msgid ""
+"-m --module When multiple modules are specified, -l --level only allows \"on"
+"\" or \"off\" as parameters\n"
+msgstr ""
+"-m --module 當指定多個模塊時，-l --level 只允許 \"on\"或\"off\"作為參數\n"
+
+#, c-format
+msgid "Error: The %s configuration file is missing the debug_on_para field\n"
+msgstr "Error: %s 配置文件缺少 debug_on_para 字段\n"
+
+#, c-format
+msgid "Error: The %s configuration file's debug_on_para filed is not valid\n"
+msgstr "Error: %s 配置文件的 debug_on_para 字段無效\n"
+
+#, c-format
+msgid "Error: The %s configuration file is missing the debug_off_para field\n"
+msgstr "Error: %s 配置文件缺少 debug_on_para 字段\n"
+
+#, c-format
+msgid "Error: The %s configuration file's debug_off_para filed is not valid\n"
+msgstr "Error: %s 配置文件的 debug_off_para 字段無效\n"
+
+#, c-format
+msgid "Error: The level parameter %s is not valid for module %s\n"
+msgstr "Error: level參數 %s 對於模塊 %s 無效\n"
+
+#, c-format
+msgid "Error: Cannot find configuration file for module %s\n"
+msgstr "Error: 找不到類型 %s 的配置文件\n"
+
+#, c-format
+msgid "Error: Cannot find command to install dbg pkgs\n"
+msgstr "Error: 找不到安裝 dbg pkgs 的命令\n"
+
+#, c-format
+msgid ""
+"Error: The sha256 digest of the shell file does not match, the shell file "
+"may be rewritten.\n"
+msgstr "Error: shell 文件的 sha256 值不匹配，shell 文件可能被重寫。\n"
+
+#, c-format
+msgid "Error: Failed to install dbg packages for %s\n"
+msgstr "Error: 為 %s 安裝 dbg 包失敗\n"
+
+#, c-format
+msgid "Error: Cannot find command to configure coredump\n"
+msgstr "Error: 找不到配置 coredump 的命令\n"
+
+#, c-format
+msgid "Error: Failed to configure coredump\n"
+msgstr "Error: 配置核心轉儲失敗\n"
+
+#, c-format
+msgid "Error: Failed to open file %s.\n"
+msgstr "Error: 打開文件 %s失敗。\n"
+
+#, c-format
+msgid "Error: Failed to parse JSON.\n"
+msgstr "Error: 解析 JSON時出錯\n"
+
+#, c-format
+msgid "Error: Error parse a module_name\n"
+msgstr "Error: 解析 module_name 時出錯\n"
+
+#, c-format
+msgid "Error: Error parse a module_type\n"
+msgstr "Error: 解析 module_type 時出錯\n"
+
+#, c-format
+msgid "Error: Error parse a debug_on_parameter\n"
+msgstr "Error: 解析 debug_on_parameter 時出錯\n"
+
+#, c-format
+msgid "Error: Error parse a debug_off_parameter\n"
+msgstr "Error: 解析 debug_off_parameter 時出錯\n"
+
+#, c-format
+msgid "Error: Error parse a shell_file\n"
+msgstr "Error: 解析 shell_file 時出錯\n"
+
+#, c-format
+msgid "Error: Error parse a parameter_ranges\n"
+msgstr "Error: 解析 parameter_ranges 時出錯\n"
+
+#, c-format
+msgid "Error: Error parse a parameter_range_Item\n"
+msgstr "Error: 解析parameter_range_Item時出錯\n"
+
+#, c-format
+msgid ""
+"Warning: failed to load a shell command, this may be a problem with the json "
+"file or shell file for %s.\n"
+msgstr ""
+"Warning: 加載 shell 命令失敗，這可能是 %s 的 json 文件或 shell 文件有問題。\n"
+
+#, c-format
+msgid ""
+"Warning: failed to load a shell command, this may be a problem with the json "
+"file or shell file.\n"
+msgstr ""
+"Warning: 加載 shell 命令失敗，這可能是 json 文件或 shell 文件有問題。\n"
+
+#, c-format
+msgid "Error: Failed to get shell file count from %s\n"
+msgstr "Error: 無法從 %s 獲取 shell 文件數目\n"
+
+#, c-format
+msgid "Error: Failed to calculate the sha256 digest for the shell file: %s.\n"
+msgstr "Error: 無法計算 shell 文件的 sha256 值: %s。\n"

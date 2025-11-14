@@ -1,0 +1,11 @@
+{
+    "name" : "systemd",
+    "group" : "system",
+    "submodules": [
+            {
+                "name" : "systemd",
+                "exec" : "systemd_debug.sh"
+            }
+    ],
+    "reboot": 1
+}

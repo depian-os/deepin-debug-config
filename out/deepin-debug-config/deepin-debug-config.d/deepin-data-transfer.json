@@ -1,0 +1,11 @@
+{
+    "name" : "deepin-data-transfer",
+    "submodules": [
+            {
+                "name" : "deepin-data-transfer",
+                "exec" : "deepin-data-transfer_debug.sh"
+            }
+    ],
+    "reboot": 0,
+    "version": "V1.0"
+}

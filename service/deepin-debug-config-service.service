@@ -1,0 +1,32 @@
+[Unit]
+Description=Deepin debug config
+
+[Service]
+#default User is root, https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html#:~:text=For%20system%20services%20(services%20run,to%20specify%20a%20different%20user.
+Type=dbus
+User=root
+ProtectSystem=strict
+InaccessiblePaths=-/etc/shadow
+InaccessiblePaths=-/etc/NetworkManager/system-connections
+InaccessiblePaths=-/etc/pam.d
+InaccessiblePaths=-/usr/share/uadp/
+ReadWritePaths=-/etc/systemd/system.conf.d
+ReadWritePaths=-/etc/systemd/user.conf.d
+ReadWritePaths=-/etc/systemd/system/systemd-logind.service.d/
+ReadWritePaths=-/etc/systemd/system/systemd-udevd.service.d/
+ReadWritePaths=-/etc/NetworkManager/conf.d
+ReadWritePaths=-/etc/profile.d
+ReadWritePaths=-/etc/X11/Xsession.d
+ReadWritePaths=-/etc/pulse/daemon.conf.d
+ReadWritePaths=-/etc/pipewire/pipewire-pulse.conf.d
+ReadWritePaths=-/etc/pipewire/pipewire.conf.d
+ReadWritePaths=-/etc/deepin/deepin-debug-config
+ReadWritePaths=-/etc/dde-cooperation
+ReadWritePaths=-/etc/deepin-data-transfer
+ReadWritePaths=-/etc/dde-cooperation-daemon
+ReadWritePaths=-/var/lib/deepin-debug-config
+ReadWritePaths=-/var/cache/deepin-debug-config
+BusName=org.deepin.DebugConfig
+ExecStart=/usr/bin/deepin-debug-config-service
+CapabilityBoundingSet=
+MemoryMax=256M

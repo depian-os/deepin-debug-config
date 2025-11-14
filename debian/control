@@ -1,0 +1,15 @@
+Source: deepin-debug-config
+Section: utils
+Priority: optional
+Maintainer: Wuhansystem <liaoyuan@uniontech.com>
+Build-Depends: debhelper (>= 11), libssl-dev, libglib2.0-dev, libsystemd-dev
+Standards-Version: 4.1.3
+Homepage: http://www.deepin.org
+
+Package: deepin-debug-config
+Architecture: any
+Depends: ${shlibs:Depends}, debianutils (>= 1.6), libssl1.1|libssl3, pkexec, polkitd
+Description: Help users open and close the debugging
+ logs of each package, open coredump, install debugging
+ packages, and facilitate developers to analyze various
+ problems encountered in the use of the system.

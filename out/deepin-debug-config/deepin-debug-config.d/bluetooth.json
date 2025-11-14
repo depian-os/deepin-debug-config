@@ -1,0 +1,11 @@
+{
+    "name" : "bluez",
+    "group" : "bluetooth",
+    "submodules": [
+	    {
+		"name" : "bluez",
+    		"exec" : "bluetooth_debug.sh"
+	    }
+    ],
+    "reboot": 1
+}

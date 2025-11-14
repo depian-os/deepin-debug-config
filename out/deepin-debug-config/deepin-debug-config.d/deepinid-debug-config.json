@@ -1,0 +1,12 @@
+{
+  "name": "uosid",
+  "group": "",
+  "submodules": [
+    {
+      "name": "uosid",
+      "exec": "deepinid-debug.sh"
+    }
+  ],
+  "reboot": 1,
+  "version": "V1.0"
+}

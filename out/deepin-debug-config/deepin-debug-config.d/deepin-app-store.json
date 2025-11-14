@@ -1,0 +1,19 @@
+{
+    "name" : "deepin-app-store",
+    "submodules": [
+        {
+            "name" : "deepin-home-appstore-client",
+            "exec" : "deepin-app-store_debug.sh"
+        },
+        {
+            "name" : "deepin-appstore-session-daemon",
+            "exec" : "deepin-app-store_debug.sh"
+        },
+        {
+            "name" : "deepin-home-appstore-daemon",
+            "exec" : "deepin-app-store_debug.sh"
+        }
+    ],
+    "reboot": 0,
+    "version": "V1.0"
+}

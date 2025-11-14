@@ -1,0 +1,23 @@
+{
+  "name": "uos-activator",
+  "submodules": [
+    {
+      "name": "license.gui",
+      "exec": "license-gui_debug.sh"
+    },
+    {
+      "name": "license.appgui",
+      "exec": "license-appgui_debug.sh"
+    },
+    {
+      "name": "license.cmd",
+      "exec": "license-cmd_debug.sh"
+    },
+    {
+      "name": "license.agent",
+      "exec": "license-agent_debug.sh"
+    }
+  ],
+  "reboot": 0,
+  "version": "V1.0"
+}

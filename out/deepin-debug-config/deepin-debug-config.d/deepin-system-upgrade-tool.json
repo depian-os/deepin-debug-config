@@ -1,0 +1,10 @@
+{
+    "name" : "deepin-system-upgrade-tool",    
+    "submodules": [
+            {
+                "name" : "deepin-system-upgrade-tool",
+                "exec" : "dde_debug.sh"
+            }
+    ],
+    "reboot": 1
+}

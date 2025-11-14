@@ -1,0 +1,11 @@
+{
+    "name" : "logind",
+    "group" : "system",
+    "submodules": [
+            {
+                "name" : "logind",
+                "exec" : "logind_debug.sh"
+            }
+    ],
+    "reboot": 1
+}

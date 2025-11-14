@@ -1,0 +1,11 @@
+{
+    "name": "org.kde.kwin",
+    "submodules": [
+        {
+            "name": "org.kde.kwin",
+            "exec": "kwin_debug.sh"
+        }
+    ],
+    "reboot": 1,
+    "version": "V1.0"
+}

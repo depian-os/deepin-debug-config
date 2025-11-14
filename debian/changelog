@@ -1,0 +1,278 @@
+deepin-debug-config (1.0.45-deepin1) stable; urgency=medium
+
+  * Fix: cann't mod NetworkManager debug level.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Fri, 08 Aug 2025 10:54:11 +0800
+
+deepin-debug-config (1.0.44-deepin1) stable; urgency=medium
+
+  * create dic when off the debug mode.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Mon, 23 Jun 2025 12:16:00 +0800
+
+deepin-debug-config (1.0.43-deepin1) stable; urgency=medium
+
+  * fix: networkmanager cann't set log off.
+  * feat: add pipewire setting
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Fri, 13 Jun 2025 14:28:30 +0800
+
+deepin-debug-config (0.0.42-deepin1) stable; urgency=medium
+
+  * feat: update kwin logging rules
+
+ -- guoyao <guoyao@uniontech.com>  Fri, 25 Apr 2025 10:57:08 +0800
+
+deepin-debug-config (1.0.41-deepin1) unstable; urgency=medium
+
+  * app-store change id.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Fri, 25 Apr 2025 09:54:08 +0800
+
+deepin-debug-config (1.0.40-deepin1) unstable; urgency=medium
+
+  * Remove unsuitable items.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Fri, 07 Mar 2025 17:21:59 +0800
+
+deepin-debug-config (1.0.39-deepin1) stable; urgency=medium
+
+  * Filter dev and sysv when installing debug packages.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Fri, 14 Feb 2025 18:46:26 +0800
+
+deepin-debug-config (1.0.38-deepin1) stable; urgency=medium
+
+  * fix cann't debug systemd.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Mon, 20 Jan 2025 15:33:12 +0800
+
+deepin-debug-config (1.0.37-deepin1) stable; urgency=medium
+
+  * fix can't set coredump if systemd-coredump not installed.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Fri, 20 Dec 2024 11:51:46 +0800
+
+deepin-debug-config (1.0.36-deepin1) stable; urgency=medium
+
+  * Use execvp instead of system
+  * Optimize set_coredump and install_dbg scripts
+  * Check if the package is installed when setdebug fails.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Fri, 13 Dec 2024 13:25:38 +0800
+
+deepin-debug-config (1.0.35-deepin1) stable; urgency=medium
+
+  * fix type arg error.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Fri, 06 Dec 2024 10:11:09 +0800
+
+deepin-debug-config (1.0.34-deepin1) stable; urgency=medium
+
+  * add to v25.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Fri, 29 Nov 2024 17:30:49 +0800
+
+deepin-debug-config (0.0.33-deepin1) stable; urgency=medium
+
+  * add D-Bus property SetDebugResult.
+
+ -- Hao Ding <dinghao@uniontech.com>  Fri, 18 Oct 2024 15:33:46 +0800
+
+deepin-debug-config (0.0.32-deepin1) stable; urgency=medium
+
+  * Remove the D-Bus connection timeout limit.
+
+ -- Hao Ding <dinghao@uniontech.com>  Tue, 08 Oct 2024 10:29:50 +0800
+
+deepin-debug-config (0.0.31-deepin1) stable; urgency=medium
+
+  * Fix failed to configure the dde-cooperation debugging mode.
+
+ -- Hao Ding <dinghao@uniontech.com>  Fri, 20 Sep 2024 16:57:01 +0800
+
+deepin-debug-config (0.0.30-deepin1) stable; urgency=medium
+
+  * Fix failed to configure the dde-cooperation debugging mode.
+
+ -- Hao Ding <dinghao@uniontech.com>  Thu, 19 Sep 2024 14:16:04 +0800
+
+deepin-debug-config (0.0.29-deepin1) stable; urgency=medium
+
+  * Modify the configuration file path of dde-cooperation and improve the NetworkManager configuration script.
+
+ -- Hao Ding <dinghao@uniontech.com>  Tue, 10 Sep 2024 18:01:10 +0800
+
+deepin-debug-config (0.0.28-deepin1) stable; urgency=medium
+
+  * add policykit action file.
+
+ -- Hao Ding <dinghao@uniontech.com>  Fri, 06 Sep 2024 15:41:06 +0800
+
+deepin-debug-config (0.0.27-deepin1) stable; urgency=medium
+
+  * Modify the way the authentication function is called.
+
+ -- Hao Ding <dinghao@uniontech.com>  Tue, 03 Sep 2024 16:47:16 +0800
+
+deepin-debug-config (0.0.26-deepin1) stable; urgency=medium
+
+  * d-bus security hardening.
+
+ -- Hao Ding <dinghao@uniontech.com>  Fri, 30 Aug 2024 16:34:30 +0800
+
+deepin-debug-config (0.0.25-deepin1) stable; urgency=medium
+
+  * add dbus check authorization.
+
+ -- Hao Ding <dinghao@uniontech.com>  Thu, 29 Aug 2024 11:05:33 +0800
+
+deepin-debug-config (0.0.24-deepin1) stable; urgency=medium
+
+  * d-bus security hardening.
+
+ -- Hao Ding <dinghao@uniontech.com>  Thu, 17 Jul 2024 13:43:26 +0800
+
+deepin-debug-config (0.0.23-deepin1) stable; urgency=medium
+
+  * no break when fail.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Thu, 18 Jul 2024 11:28:55 +0800
+
+deepin-debug-config (0.0.22-deepin1) stable; urgency=medium
+
+  * rebuild.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Fri, 24 May 2024 10:22:08 +0800
+
+deepin-debug-config (0.0.21-deepin1) stable; urgency=medium
+
+  * support print/calendar/devicemanager.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Wed, 08 May 2024 15:07:54 +0800
+
+deepin-debug-config (0.0.20-deepin1) stable; urgency=medium
+
+  * fix bug set debug&warning to dde.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Tue, 23 Apr 2024 15:56:07 +0800
+
+deepin-debug-config (0.0.19-deepin1) unstable; urgency=medium
+
+  * fix bug set debug&warning to systemd&pulseaudio.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Wed, 28 Feb 2024 20:05:49 +0800
+
+deepin-debug-config (0.0.18-deepin1) unstable; urgency=medium
+
+  * up version.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Mon, 26 Feb 2024 14:09:34 +0800
+
+deepin-debug-config (0.0.17-deepin1) unstable; urgency=medium
+
+  * change off to warning.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Tue, 20 Feb 2024 18:47:26 +0800
+
+deepin-debug-config (0.0.16-deepin1) unstable; urgency=medium
+
+  * support debug parameter debug & warning.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Fri, 02 Feb 2024 16:07:32 +0800
+
+deepin-debug-config (0.0.15-deepin1) unstable; urgency=medium
+
+  * update version.
+
+ -- liaoyonglin <liaoyonglin@uniontech.com>  Fri, 26 Jan 2024 17:07:21 +0800
+
+deepin-debug-config (0.0.14-deepin1) unstable; urgency=medium
+
+  * set debug off in iso.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Wed, 10 Jan 2024 21:01:54 +0800
+
+deepin-debug-config (0.0.13-deepin1) unstable; urgency=medium
+
+  * not update-grub & fix install-dbg bug.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Thu, 04 Jan 2024 21:10:12 +0800
+
+deepin-debug-config (0.0.12-deepin1) unstable; urgency=medium
+
+  * fix chage config path.
+
+ -- liaoyonglin <liaoyonglin@uniontech.com>  Thu, 21 Dec 2023 11:46:07 +0800
+
+deepin-debug-config (0.0.11-deepin1) unstable; urgency=medium
+
+  * fix adaptation of DBus interface secure coding guidelines.
+  * fix update network-manager_debug.sh
+
+ -- liaoyonglin <liaoyonglin@uniontech.com>  Thu, 21 Dec 2023 10:14:27 +0800
+
+deepin-debug-config (0.0.10-deepin1) unstable; urgency=medium
+
+  * fix core when set invalid type.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Sun, 05 Nov 2023 19:17:56 +0800
+
+deepin-debug-config (0.0.9-deepin1) unstable; urgency=medium
+
+  * fix SetDebug fail when installed at chroot environment.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Sat, 28 Oct 2023 17:18:45 +0800
+
+deepin-debug-config (0.0.8-deepin1) unstable; urgency=medium
+
+  * install success when exec cmd fail in postinst.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Sun, 22 Oct 2023 13:30:36 +0800
+
+deepin-debug-config (0.0.7-deepin1) unstable; urgency=medium
+
+  * 开关debug时修改journal log配置.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Fri, 20 Oct 2023 18:49:10 +0800
+
+deepin-debug-config (0.0.6-deepin1) unstable; urgency=medium
+
+  * 增加弹窗.
+  * 修改json文件格式
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Mon, 16 Oct 2023 17:36:29 +0800
+
+deepin-debug-config (0.0.5-deepin1) unstable; urgency=medium
+
+  * 增加dbus接口.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Thu, 12 Oct 2023 22:04:54 +0800
+
+deepin-debug-config (0.0.4-deepin1) unstable; urgency=medium
+
+  * 增加从dbg仓库安装dbg的功能.
+
+ -- xinpeng.wang <wangxinpeng@uniontech.com>  Tue, 05 Sep 2023 20:05:26 +0800
+
+deepin-debug-config (0.0.3-deepin1) unstable; urgency=medium
+
+  * 修复关闭dde_debug调试日志失败.
+  * 修复编译失败.
+
+ -- liaoyuan <liaoyuan@uniontech.com>  Fri, 11 Aug 2023 17:39:57 +0800
+
+deepin-debug-config (0.0.2-deepin1) unstable; urgency=medium
+
+  * 1.修改命令行参数
+  * 2.去掉json配置文件log_path条目
+  * 3.json配置文件shell脚本路径为绝对路径
+  * 4.调加安装时将系统日志设置为warning的postinst脚本
+
+ -- liaoyuan <liaoyuan@uniontech.com>  Fri, 11 Aug 2023 13:22:11 +0800
+
+deepin-debug-config (0.0.1-deepin1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- liaoyuan <liaoyuan@uniontech.com>  Tue, 25 Jul 2023 17:09:22 +0800

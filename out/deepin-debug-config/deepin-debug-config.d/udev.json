@@ -1,0 +1,11 @@
+{
+    "name" : "udev",
+    "group" : "system",
+    "submodules": [
+            {
+                "name" : "udev",
+                "exec" : "udev_debug.sh"
+            }
+    ],
+    "reboot": 1
+}

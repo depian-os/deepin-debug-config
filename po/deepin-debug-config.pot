@@ -1,0 +1,366 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-11 13:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, c-format
+msgid "Usage: %s [options]\n"
+msgstr ""
+
+#, c-format
+msgid "options:\n"
+msgstr ""
+
+#, c-format
+msgid "\t-h --help:\tno arg,show help\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\t-s --set:\tno arg, means to configure debug mode, used together with --"
+"coredump or --level\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\t-g --get:\tno arg, means to obtain debug mode information, used together "
+"with --coredump or --level\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\t-c --coredump:\toptionally receive a parameter, depending on the --set and "
+"--get options, which indicates switch coredump or get coredump status\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\t-i --install-dbg:\trequire one arg, which means to install the debug "
+"package of the specified pkg, example: -i systemd\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\t-l --level:\toptionally receive a parameter, depending on the --set and --"
+"get options, which indicates setting and getting the module log level and "
+"coredump status\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\t-L --list-levels:\tno arg, but should be used with -m or --module, list "
+"supported dbug levels for specified module \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\t-m --module:\trequire one arg, input the name of the module to be "
+"configured, example: -m systemd\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\t-t --type:\trequire one arg, input the type of the module to be "
+"configured, example: -t system\n"
+msgstr ""
+
+#, c-format
+msgid "Error: NOMEMORY:%m\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Invalid argument, --set and --get cannot be used together\n"
+msgstr ""
+
+#, c-format
+msgid "Error: %s missing parameter\n"
+msgstr ""
+
+#, c-format
+msgid "Try '%s --help' for more information.\n"
+msgstr ""
+
+#, c-format
+msgid "Error: -l --level should be used with --set or --get\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error: Invalid argument for -c or --coredump which you should use with \"on"
+"\" or \"off\"\n"
+msgstr ""
+
+#, c-format
+msgid "Error: -c --coredump should be used with --set or --get\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Invalid parameter, please check parameters\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Failed to get coredump state.\n"
+msgstr ""
+
+#, c-format
+msgid "Error: %s: Permission denied.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error: Invalid argument for -l --level, you should use --type with --level "
+"whose parameter is \"on\" or \"off\"\n"
+msgstr ""
+
+#, c-format
+msgid "Done.\n"
+msgstr ""
+
+#, c-format
+msgid "Failed.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error: Invalid argument, --set and --get should be used with --coredump or --"
+"level\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Invalid argument, --module and --type cannot be used together\n"
+msgstr ""
+
+#, c-format
+msgid "Error: %s is only supported for use with a single specified pkg-name\n"
+msgstr ""
+
+#, c-format
+msgid "Error: --get --level should be used with -t or --type\n"
+msgstr ""
+
+#, c-format
+msgid "Error: %s is only supported for use with a single specified type\n"
+msgstr ""
+
+#, c-format
+msgid "Error: -L --list-levels should be used with -m or --module\n"
+msgstr ""
+
+#, c-format
+msgid "Error: %s is only supported for use with a single specified module\n"
+msgstr ""
+
+#, c-format
+msgid "Error: -l --level should be used with -m,--module or -t,--type\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Invalid module_name: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Supported module_names: "
+msgstr ""
+
+#, c-format
+msgid "Error: Invalid argument for %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Invalid module_type: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Supported module_types: "
+msgstr ""
+
+#, c-format
+msgid "Error: Failed to get json file count from %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Failed to open dir %s, err: %m\n"
+msgstr ""
+
+#, c-format
+msgid "Error: lstat error %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error: hook_config init failed\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Cannot find configure command for the module %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Failed to configure %s.\n"
+msgstr ""
+
+#, c-format
+msgid "INFO: Succeed to configure %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Module %s is not supported for this tool\n"
+msgstr ""
+
+#, c-format
+msgid "Error: %s,failed :%m\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Error getting debug level for type \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid "Error: file %s,failed:%m\n"
+msgstr ""
+
+#, c-format
+msgid "Error: read file %s error,failed:%m\n"
+msgstr ""
+
+#, c-format
+msgid "Error: rename file %s error,failed:%m\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: The %s configuration file is missing the debug_on_para field\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: The %s configuration file's debug_on_para filed is not valid\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: The %s configuration file's debug_off_para filed is not valid\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Cannot find configuration file for type %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"-m --module When multiple modules are specified, -l --level only allows \"on"
+"\" or \"off\" as parameters\n"
+msgstr ""
+
+#, c-format
+msgid "Error: The %s configuration file is missing the debug_on_para field\n"
+msgstr ""
+
+#, c-format
+msgid "Error: The %s configuration file's debug_on_para filed is not valid\n"
+msgstr ""
+
+#, c-format
+msgid "Error: The %s configuration file is missing the debug_off_para field\n"
+msgstr ""
+
+#, c-format
+msgid "Error: The %s configuration file's debug_off_para filed is not valid\n"
+msgstr ""
+
+#, c-format
+msgid "Error: The level parameter %s is not valid for module %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Cannot find configuration file for module %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Cannot find command to install dbg pkgs\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error: The sha256 digest of the shell file does not match, the shell file "
+"may be rewritten.\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Failed to install dbg packages for %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Cannot find command to configure coredump\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Failed to configure coredump\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Failed to open file %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Failed to parse JSON.\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Error parse a module_name\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Error parse a module_type\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Error parse a debug_on_parameter\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Error parse a debug_off_parameter\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Error parse a shell_file\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Error parse a parameter_ranges\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Error parse a parameter_range_Item\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: failed to load a shell command, this may be a problem with the json "
+"file or shell file for %s.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: failed to load a shell command, this may be a problem with the json "
+"file or shell file.\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Failed to get shell file count from %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error: Failed to calculate the sha256 digest for the shell file: %s.\n"
+msgstr ""

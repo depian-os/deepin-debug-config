@@ -1,0 +1,19 @@
+{
+    "Monitor": {
+        "Type": "DBus",
+        "DBus": {
+            "BusType": "System",
+            "Sender": "org.deepin.DebugConfig",
+            "Interface": "org.deepin.DebugConfig",
+            "Path": "/org/deepin/DebugConfig",
+            "Signal": "MethodFinished"
+        }
+    },
+
+    "Name": "deepin debug config",
+    "Description": "",
+    "Exec": ["bash", "/usr/share/deepin-debug-config/notify.sh",
+        "%{arg0}",
+        "%{arg1}",
+        "%{arg2}"]
+}
